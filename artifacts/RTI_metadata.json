@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "roman",
+						"type": "string"
+					}
+				],
+				"name": "fromRoman",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Task1/RTI.sol": "RTI"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Task1/RTI.sol": {
+			"keccak256": "0xc503269fe7282c87b10aa0e90e331323fdd6d6a3d7affbfbd46ec3bc28b9fe2f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2861138a844739a4c6ec25c15969ecf777e3a0d449d1493b7f5cf97af64e7310",
+				"dweb:/ipfs/QmQRnBDic8EzewKMmVYeQFutuHHRL3F7xk8G8RWQyiDHW6"
+			]
+		}
+	},
+	"version": 1
+}

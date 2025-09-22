@@ -1,0 +1,80 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "arr",
+						"type": "uint256[]"
+					},
+					{
+						"internalType": "uint256",
+						"name": "target",
+						"type": "uint256"
+					}
+				],
+				"name": "search",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"search(uint256[],uint256)": {
+					"returns": {
+						"_0": "index 找到返回索引，否则返回 type(uint).max 表示未找到"
+					}
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"search(uint256[],uint256)": {
+					"notice": "在有序数组 arr 中查找 target"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Task1/BinarySearch.sol": "BinarySearch"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Task1/BinarySearch.sol": {
+			"keccak256": "0x8d04e2f795a593785be4a7c4a7c3dd540e53d8ef138ce46bf3e85e5747b0f8f1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bc439a57a8c7d8355d016567e48c3275ea5be2a6e456d86adfbee1653c508cbd",
+				"dweb:/ipfs/QmSKfuKV6rCqdv3fsR4AuTTARTLqx2q5ZNoMQmQ5ZG4SaJ"
+			]
+		}
+	},
+	"version": 1
+}
